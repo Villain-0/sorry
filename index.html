@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>For You, Asreen 🌷</title>
   <style>
     body {
       background: linear-gradient(to bottom, #f9f3f3, #ffe6e6);
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
-      padding: 50px;
+      padding: 30px;
+      margin: 0;
       color: #333;
     }
 
@@ -16,7 +18,7 @@
       max-width: 600px;
       margin: auto;
       background: #fff;
-      padding: 30px;
+      padding: 25px 20px;
       border-radius: 15px;
       box-shadow: 0 8px 16px rgba(0,0,0,0.1);
       animation: fadeIn 1.2s ease-in;
@@ -24,12 +26,13 @@
 
     h1 {
       color: #e74c3c;
-      font-size: 2.2em;
+      font-size: 2em;
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
       margin: 15px 0;
+      line-height: 1.6;
     }
 
     .heart {
@@ -51,9 +54,32 @@
     }
 
     .footer {
-      margin-top: 30px;
+      margin-top: 25px;
       font-style: italic;
       color: #666;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      .heart {
+        font-size: 2.5em;
+      }
     }
   </style>
 </head>
